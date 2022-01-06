@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("https://wallpapercave.com/wp/3wPVPxQ.jpg");
+    
+}
+
+h1 {
+ font-size: 100px;
+ color: rgb(14, 161, 230);
+}
+
+header {
+    height: 100px;
+    margin: 30px; 
+    display: flex; 
+    justify-content: left; 
+    align-items: center;
+
+}
+
+main {
+    display: flex; 
+    justify-content: left;
+}
+
+form {
+    width: 245px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 30px;
+}
+
+button {
+    background-color: #232323;
+    width: 75px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 30px;
+}
+
+input[type='text'] {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: #232323;
+    background-color: rgb(255, 255, 255);
+}
+
+#ratings-container {
+    width: 85%;
+    color: white;
+}
+
+#radio-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+#songs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-cover {
+    width: 200px; 
+    height: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.song-card {
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 470px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.song-title {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.song-rating {
+    font-size: 15px;
+    margin: 5px 0;
+    color: white;
+}
+
+.btns-container {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.btns-container > button {
+    width: 20px;
+}
